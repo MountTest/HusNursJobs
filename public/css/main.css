@@ -17,9 +17,12 @@ img {
     margin: 0 auto;
 }
 .row {
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 .col {
     -ms-flex-preferred-size: 0;
@@ -155,8 +158,24 @@ img {
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+/*form contact us*/
+.contact-us-form ul {
+    display: block;
+}
+.contact-us-form li {
+    display: inline-block;
+}
+.contact-us-form ul li {
+    list-style: none;
 }
 @import "media.css";

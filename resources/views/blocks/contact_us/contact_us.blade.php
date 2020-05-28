@@ -17,7 +17,7 @@
                         <input type="text" placeholder="Full Name">
                     </li>
                     <li>
-                        <button class=""></button>
+                        <button class="btn btn-primary">Contact US</button>
                     </li>
                 </ul>
             </form>
