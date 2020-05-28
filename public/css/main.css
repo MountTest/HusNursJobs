@@ -212,20 +212,65 @@ img {
 .mr-5 {
     margin-right: 5rem;
 }
-.mr-1 {
-    margin-right: 1rem;
+.ml-1 {
+    margin-left: 1rem;
 }
-.mr-2 {
-    margin-right: 2rem;
+.ml-2 {
+    margin-left: 2rem;
 }
-.mr-3 {
-    margin-right: 3rem;
+.ml-3 {
+    margin-left: 3rem;
 }
-.mr-4 {
-    margin-right: 4rem;
+.ml-4 {
+    margin-left: 4rem;
 }
-.mr-5 {
-    margin-right: 5rem;
+.ml-5 {
+    margin: 5rem;
+}
+.mx-1 {
+    margin: 0 1rem;
+}
+.mx-2 {
+    margin: 0 2rem;
+}
+.mx-3 {
+    margin: 0 3rem;
+}
+.mx-4 {
+    margin: 0 4rem;
+}
+.mx-5 {
+    margin: 0 5rem;
+}
+.my-1 {
+    margin: 1rem 0;
+}
+.my-2 {
+    margin: 2rem 0;
+}
+.my-3 {
+    margin: 3rem 0;
+}
+.my-4 {
+    margin: 4rem 0;
+}
+.my-5 {
+    margin: 5rem 0;
+}
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 2rem;
+}
+.m-3 {
+    margin: 3rem;
+}
+.m-4 {
+    margin: 4rem;
+}
+.m-5 {
+    margin: 5rem;
 }
 .contact-us-bg {
     background-color: rgb(238, 222, 196);   ;
@@ -235,3 +280,4 @@ img {
     font-weight: bold;
 }
 @import "media.css";
+@import "animate.css";
