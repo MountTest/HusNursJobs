@@ -1,8 +1,15 @@
+/**
+ * Images a now responsive
+ */
 img {
     max-width: 100%;
     height: auto;
 }
 
+/**
+ * Limit the container in
+ * width for big screens
+ */
 .container {
     width: 1140px;
     max-width: 100%;
@@ -107,6 +114,12 @@ img {
     flex-wrap: wrap;
 }
 
+/**
+ * The followings are to
+ * make things more
+ * clean and airy
+ * and contents centered
+ */
 .main-nav ul {
     margin: 1em 0 .5em;
     text-align: center;
@@ -117,6 +130,12 @@ img {
 .main-nav a {
     display: inline-block;
     padding: .5em 1.5em;
+}
+.main-nav-list {
+    list-style: none;
+}
+.text-dark {
+    color: black;
 }
 .btn {
     display: inline-block;
@@ -136,4 +155,5 @@ img {
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
 @import "media.css";
