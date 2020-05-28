@@ -1,0 +1,11 @@
+/**
+ * Space-around become
+ * Space-between to
+ * distribute space
+ * between the flex-items
+ */
+@media (min-width: 960px) {
+    .main-header .container {
+        justify-content: space-between;
+    }
+}
