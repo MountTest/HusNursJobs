@@ -2,13 +2,13 @@
 
 @section('content')
 
-        @include('blocks.header')
-        @include('blocks.main')
-        @include('blocks.tabs')
-        @include('blocks.advantages')
-        @include('blocks.prices')
-        @include('blocks.contact_us')
-        @include('blocks.footer')
+        @include('blocks.header.header')
+        @include('blocks.main.main_first_block')
+        @include('blocks.tabs.main_tabs')
+        @include('blocks.advantages.advatages')
+        @include('blocks.prices.prices')
+        @include('blocks.contact_us.contact_us')
+        @include('blocks.footer.footer')
 
 
 @endsection
