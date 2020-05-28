@@ -30,3 +30,9 @@
     </div>
 </section>
 
+@push('scripts')
+    <script>
+
+    </script>
+@endpush
+
