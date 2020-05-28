@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-6">
-                <p class="contact-us-text">
+                <p class="contact-us-text tracking-in-expand">
                     Get started with FitSmallBusiness’ #1 choice for online bookkeeping.
                 </p>
                 <p>
