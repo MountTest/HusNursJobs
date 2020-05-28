@@ -11,3 +11,31 @@
         </div>
     </div>
 </div>
+@push('scripts')
+    <script>
+        $('.tablinks').click(function (e) {
+            var btn = $(e.currentTarget);
+            if(btn.hasClass('btn-active') == false){
+                $('.tablinks').removeClass('btn-active');
+                btn.addClass('btn-active');
+                $.ajax({
+                    url: '{{ route('change_tab') }}',
+                    method: 'POST',
+                    data: {
+                        "_token": "{{ csrf_token() }}",
+                        "id": btn.data('id'),
+
+                    },
+                    success: data => {
+                        $('#main').html(data.view);
+                    },
+                    error: () => {
+                        alert('error');
+                    }
+                });
+            }
+        })
+    </script>
+
+
+@endpush
