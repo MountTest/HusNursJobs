@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/main.css')}}">
     <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('css/alertify.default.css')}}">
+    <link rel="stylesheet" href="{{asset('css/alertify.core.css')}}">
+    <link rel="stylesheet" href="{{asset('css/alertify.bootstrap.css')}}">
 @stack('styles')
     <!-- Styles -->
 
@@ -21,7 +24,7 @@
     </main>
 </div>
 <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-
+<script type="text/javascript" src="{{asset('js/alertify.js')}}"></script>
 <!-- MDB core JavaScript -->
 <script>
 

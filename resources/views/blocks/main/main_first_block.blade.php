@@ -39,7 +39,6 @@
 <script>
     $('.get-started').click(function (e) {
         let btn = $(e.currentTarget);
-
         if($('#text-h2').hasClass('text-pop-up-top') == false){
             $('#text-h2').removeClass('text-pop-up-top');
             $('#text-h2').addClass('text-pop-up-top');
@@ -48,4 +47,14 @@
         }
     });
 </script>
+{{--<script>--}}
+{{--    alertify.prompt("Message", function (e, str) {--}}
+{{--        // str is the input text--}}
+{{--        if (e) {--}}
+{{--            // user clicked "ok"--}}
+{{--        } else {--}}
+{{--            // user clicked "cancel"--}}
+{{--        }--}}
+{{--    }, "Default Value");--}}
+{{--</script>--}}
 @endpush
