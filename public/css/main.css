@@ -1,15 +1,8 @@
-/**
- * Images a now responsive
- */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/**
- * Limit the container in
- * width for big screens
- */
 .container {
     width: 1140px;
     max-width: 100%;
@@ -107,17 +100,6 @@ img {
     padding-left: 15px;
 }
 
-/**
- * By using display: flex
- * Logo and nav are in 2 cols
- * align-items make them
- * vertically centered
- * justify-content distribute
- * horizontal spaces around
- * and flex-wrap break the
- * things in two lines in
- * small screens
- */
 .main-header .container {
     display: flex;
     align-items: center;
@@ -125,12 +107,6 @@ img {
     flex-wrap: wrap;
 }
 
-/**
- * The followings are to
- * make things more
- * clean and airy
- * and contents centered
- */
 .main-nav ul {
     margin: 1em 0 .5em;
     text-align: center;
@@ -141,5 +117,23 @@ img {
 .main-nav a {
     display: inline-block;
     padding: .5em 1.5em;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 @import "media.css";

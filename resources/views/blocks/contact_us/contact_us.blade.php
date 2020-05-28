@@ -8,7 +8,7 @@
                 Try the best—free. Sign up for a free trial and get full access to Bench.
                 We’ll do a month of your bookkeeping in one business day, and deliver a set of financial statements for you to keep.
             </p>
-            <form action="">
+            <form class="contact-us-form" action="">
                 <ul>
                     <li>
                         <input type="text" placeholder="Full Name">
@@ -17,7 +17,7 @@
                         <input type="text" placeholder="Full Name">
                     </li>
                     <li>
-                        <button></button>
+                        <button class=""></button>
                     </li>
                 </ul>
             </form>
