@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-
+    <section class="bg-first">
     @include('blocks.header.header')
     @include('blocks.main.main_first_block')
+    </section>
     @include('blocks.tabs.main_tabs')
     @include('blocks.advantages.advatages')
     @include('blocks.prices.prices')
@@ -13,7 +14,7 @@
 @endsection
 
 @push('styles')
-    <link rel="stylesheet" type="text/css" href="{{asset('css/buttons.css')}}"/>
+
 @endpush
 @push('scripts')
 
