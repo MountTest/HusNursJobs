@@ -5,7 +5,7 @@
                 <h6 class="main-text-in-block pb-3" id="text-h2" style="">Data Warehouse is a data storage area
                     that<br> has been tested for security,so you can store<br> your data here safely but not be afraid of<br> being
                     stolen by others.</h6>
-                <a class="get-started pt-2" href="#" style="padding: 15px;color: white;background: #9C69E2;border-radius: 50px;">
+                <a data-aos="example-anim1" class="get-started pt-2 " href="#" style="padding: 15px;color: white;background: #9C69E2;border-radius: 50px;">
                     Learn more </a>
             </div>
     </div>

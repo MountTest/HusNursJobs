@@ -3,7 +3,7 @@
     <div class="container ">
         <div class="row">
             <div class="col-12 col-lg-6">
-                <h2>Try for free!</h2>
+                <h2 data-aos="example-anim3">Try for free!</h2>
                 <p>Get limited 1 week try our features!</p>
             </div>
             <div class="col-12 col-lg-6 d-flex">
