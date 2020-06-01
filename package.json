@@ -19,6 +19,7 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
+        "aos": "^2.3.4",
         "bootstrap": "^4.5.0"
     }
 }

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/slick.css') }}"/>
     <link rel="stylesheet" href="{{asset('css/slick-theme.css') }}"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 @stack('styles')
     <!-- Styles -->
 
@@ -32,9 +33,14 @@
 <script type="text/javascript" src="{{asset('js/alertify.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('js/slick.min.js') }}"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- MDB core JavaScript -->
 <script>
 
+</script>
+<script>
+    AOS.init();
 </script>
 @stack('scripts')
 </body>

@@ -14,30 +14,30 @@
             <div class="col-12 col-lg-6 ">
                 <div class="row bg-advatages-1 py-5">
                     <div class="col-5 d-flex align-items-center">
-                        <img class="img-fluid" src="{{asset('image/image3 1.png')}}" alt="">
+                        <img data-aos="fade-right"  class="img-fluid" src="{{asset('image/image3 1.png')}}" alt="">
                     </div>
                     <div class="col-7 pr-5">
-                        <h3 class="py-3">Search Data</h3>
-                        <p class="pt-2">Don't worry if your data is very
+                        <h3 data-aos="fade-right" class="py-3">Search Data</h3>
+                        <p data-aos="fade-right" class="pt-2">Don't worry if your data is very
                             large,the data Warehouse
                             provides a search engine,
                             which is useful for making it easier to find data efffectively saving time.</p>
-                        <a href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a data-aos="fade-right" href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
                 <div class="row bg-advatages-2 py-5">
                     <div class="col-5 d-flex align-items-center">
-                        <img class="img-fluid" src="{{asset('image/image4.png')}}" alt="">
+                        <img data-aos="fade-left" class="img-fluid" src="{{asset('image/image4.png')}}" alt="">
                     </div>
                     <div class="col-7 pr-5">
-                        <h3 class="py-3">24 Hours Access</h3>
-                        <p class="pt-2">Don't worry if your data is very
+                        <h3 data-aos="fade-left" class="py-3">24 Hours Access</h3>
+                        <p data-aos="fade-left" class="pt-2">Don't worry if your data is very
                             large,the data Warehouse
                             provides a search engine,
                             which is useful for making it easier to find data efffectively saving time.</p>
-                        <a href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a data-aos="fade-left" href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,30 +46,30 @@
             <div class="col-12 col-lg-6 ">
                 <div class="row bg-advatages-1 py-5">
                     <div class="col-5 d-flex align-items-center">
-                        <img class="img-fluid" src="{{asset('image/image5 1.png')}}" alt="">
+                        <img data-aos="fade-right" class="img-fluid" src="{{asset('image/image5 1.png')}}" alt="">
                     </div>
                     <div class="col-7 pr-5">
-                        <h3 class="py-3">Print Out</h3>
-                        <p class="pt-2">Don't worry if your data is very
+                        <h3 data-aos="fade-right" class="py-3">Print Out</h3>
+                        <p data-aos="fade-right" class="pt-2">Don't worry if your data is very
                             large,the data Warehouse
                             provides a search engine,
                             which is useful for making it easier to find data efffectively saving time.</p>
-                        <a href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a data-aos="fade-right" href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-6">
                 <div class="row bg-advatages-2 py-5">
                     <div class="col-5 d-flex align-items-center">
-                        <img class="img-fluid" src="{{asset('image/image6 1.png')}}" alt="">
+                        <img data-aos="fade-left" class="img-fluid" src="{{asset('image/image6 1.png')}}" alt="">
                     </div>
                     <div class="col-7 pr-5">
-                        <h3 class="py-3">Security Code</h3>
-                        <p class="pt-2">Don't worry if your data is very
+                        <h3 data-aos="fade-left" class="py-3">Security Code</h3>
+                        <p data-aos="fade-left" class="pt-2">Don't worry if your data is very
                             large,the data Warehouse
                             provides a search engine,
                             which is useful for making it easier to find data efffectively saving time.</p>
-                        <a href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
+                        <a data-aos="fade-left" href="">Learn more<i class="fas fa-long-arrow-alt-right"></i></a>
                     </div>
                 </div>
             </div>
